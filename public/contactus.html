@@ -7,8 +7,9 @@
 </head>
 <body>
     <div>
+        <a href="/">Back to home</a>
         <h1>Contant Us</h1>
-        <form>
+        <form action="/contactus" method="post">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
 
@@ -19,6 +20,7 @@
             <textarea id="subject" name="subject" required rows="5"></textarea>
 
             <button type="submit">Send</button>
+            <button type="reset">Clear</button>
 
         </form>
     </div>
